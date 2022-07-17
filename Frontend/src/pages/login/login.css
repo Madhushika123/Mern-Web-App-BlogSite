@@ -36,9 +36,9 @@
 .loginButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: lightcoral;
+  background-color: rgb(107, 5, 5);
   border: none;
-  color: white;
+  color: rgb(240, 235, 235);
   border-radius: 10px;
   padding: 10px;
 }
