@@ -50,6 +50,13 @@ export default function Settings() {
           <button className="settingsDeleteSubmit" type="submit">
             Delete
           </button>
+          {success && (
+            <span
+              style={{ color: "green", textAlign: "center", marginTop: "20px" }}
+            >
+              Profile has been Deleted...
+            </span>
+          )}
         </div>
         <form className="settingsForm" onSubmit={handleSubmit}>
           <label>Profile Picture</label>
